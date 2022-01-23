@@ -1,0 +1,16 @@
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+
+    .card {
+        width: calc(100% / 4);
+
+        h5 {
+            color: grey;
+        }
+
+        span {
+            color: darkred;
+        }
+    }
+}
